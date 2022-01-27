@@ -6,6 +6,6 @@
     @Param("<fieldName>", "Value to be set for <fieldName>")
     function with<fieldName> (<fieldName> : <dataType>) : <builderName>
     {
-        this.set(<entityName>.Type.TypeInfo.getProperty("<fieldName>", <fieldName>)
+        this.set(<entityName>.Type.TypeInfo.getProperty("<fieldName>"), <fieldName>)
         return this
     }

@@ -35,7 +35,7 @@ public class EntityBuilderConstants {
     public static final String $INTEGER_FIELD = "int";
     public static final String $USES_INTEGER = "uses java.lang.Integer";
     public static final String $DATE_FIELD = "date";
-    public static final String $USES_DATE = "uses java.lang.Date";
+    public static final String $USES_DATE = "uses java.util.Date";
     public static final String $USES_DATA_BUILDER = "uses gw.api.databuilder.DataBuilder";
 
     public static final String $PACKAGE_NAME = "dlg.cc.databuilder.entity";
