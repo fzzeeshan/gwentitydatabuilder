@@ -90,7 +90,7 @@ public class EntityToGWDataBuilder {
         $JSON_FILE = _entityFile;
         $OUTPUT_DIR = _entityFile.substring(0, _entityFile.lastIndexOf("/")+1);
         $CONFIG_FILE_DIR = $OUTPUT_DIR;
-
+        $PACKAGE_NAME = extractPackageName(_entityFile);
         //Messages.showMessageDialog(p, "File: " +$JSON_FILE + "CONFIG::: " +$CONFIG_FILE_DIR+ "CONFIG_FILE::" +$CONFIG_FILE_NAME, "GW-Entity Plugin", Messages.getInformationIcon());
 
         boolean isConfigLoaded = loadConfigurationFile();
@@ -439,7 +439,7 @@ public class EntityToGWDataBuilder {
 
             _classTemplate = _classTemplate.replaceAll("<<withModel>>", _methodBuilder.toString());
             _classTemplate = _classTemplate.replaceAll("<<usesStatement>>", _usesBuilder.toString());
-            _classTemplate = _classTemplate.replaceAll("<<packageName>>", EntityBuilderConstants.$PACKAGE_NAME);
+            _classTemplate = _classTemplate.replaceAll("<<packageName>>", $PACKAGE_NAME);
             _localBuilder.append(_classTemplate);
             _localBuilder.append("\n\n");
             System.out.println(_classTemplate);

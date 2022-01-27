@@ -19,8 +19,8 @@
     <file path="$PROJECT_DIR$/../GRestPlugin/src/resources/templates/BuilderIntegerPropertyModel.gtf" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643242474068" ignored="false" />
     <file path="$PROJECT_DIR$/../GRestPlugin/src/resources/templates/BuilderBooleanPropertyModel.gtf" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643242492404" ignored="false" />
     <file path="/BuilderBooleanPropertyModel.gtf" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643242440680" ignored="false" />
-    <file path="$PROJECT_DIR$/../GRestPlugin/src/com/zcodez/rest/stubs/generator/process/JSON2GClazz.java" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643284529378" ignored="false" />
-    <file path="/JSON2GClazz.java" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643284514672" ignored="false" />
+    <file path="$PROJECT_DIR$/../GRestPlugin/src/com/zcodez/rest/stubs/generator/process/JSON2GClazz.java" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643286341132" ignored="false" />
+    <file path="/JSON2GClazz.java" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643286199107" ignored="false" />
     <file path="$PROJECT_DIR$/../GRestPlugin/src/resources/templates/BuilderStringPropertyModel.gtf" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643242484203" ignored="false" />
     <file path="$PROJECT_DIR$/../GRestPlugin/src/resources/templates/BuilderObjectPropertyModel.gtf" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643241695235" ignored="false" />
     <file path="$PROJECT_DIR$/../GRestPlugin/src/com/zcodez/rest/stubs/generator/vo/StructureDefinitionVO.java" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643242233415" ignored="false" />
@@ -92,7 +92,7 @@
       <file leaf-file-name="EntiyToGDataBuilderAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zcodez/auto/databuilder/action/EntiyToGDataBuilderAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="77" selection-start="1101" selection-end="1101" vertical-scroll-proportion="-16.32">
+            <state line="34" column="79" selection-start="1167" selection-end="1167" vertical-scroll-proportion="-9.68">
               <folding />
             </state>
           </provider>
@@ -125,10 +125,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityToGWDataBuilder.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="EntityToGWDataBuilder.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/zcodez/auto/databuilder/entity/EntityToGWDataBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="58" selection-start="7308" selection-end="7316" vertical-scroll-proportion="-34.32">
+            <state line="411" column="102" selection-start="16512" selection-end="16575" vertical-scroll-proportion="0.51994497">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,10 +172,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityBuilderConstants.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EntityBuilderConstants.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zcodez/auto/databuilder/util/EntityBuilderConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="92" selection-start="927" selection-end="927" vertical-scroll-proportion="0.5777778">
+            <state line="29" column="84" selection-start="985" selection-end="985" vertical-scroll-proportion="-19.72">
               <folding />
             </state>
           </provider>
@@ -196,15 +196,15 @@
         <option value="$PROJECT_DIR$/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/src/com/zcodez/auto/databuilder/util/APIConstants.java" />
         <option value="$PROJECT_DIR$/src/resources/templates/BuilderClassModel.gtf" />
-        <option value="$PROJECT_DIR$/src/com/zcodez/auto/databuilder/entity/EntityToGWDataBuilder.java" />
         <option value="$PROJECT_DIR$/src/com/zcodez/auto/databuilder/action/EntiyToGDataBuilderAction.java" />
         <option value="$PROJECT_DIR$/src/resources/templates/WithModel.gtf" />
         <option value="$PROJECT_DIR$/src/com/zcodez/auto/databuilder/util/EntityBuilderConstants.java" />
+        <option value="$PROJECT_DIR$/src/com/zcodez/auto/databuilder/entity/EntityToGWDataBuilder.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3447" />
+    <option name="x" value="-1727" />
     <option name="y" value="-267" />
     <option name="width" value="1734" />
     <option name="height" value="1407" />
@@ -575,7 +575,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3447" y="-267" width="1734" height="1407" extended-state="0" />
+    <frame x="-1727" y="-267" width="1734" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -754,26 +754,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zcodez/auto/databuilder/util/EntityBuilderConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="84" selection-start="985" selection-end="985" vertical-scroll-proportion="-19.72">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zcodez/auto/databuilder/action/EntiyToGDataBuilderAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="77" selection-start="1101" selection-end="1101" vertical-scroll-proportion="-16.32">
+        <state line="34" column="79" selection-start="1167" selection-end="1167" vertical-scroll-proportion="-9.68">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zcodez/auto/databuilder/entity/EntityToGWDataBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="58" selection-start="7308" selection-end="7316" vertical-scroll-proportion="-34.32">
+        <state line="411" column="102" selection-start="16512" selection-end="16575" vertical-scroll-proportion="0.51994497">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zcodez/auto/databuilder/util/EntityBuilderConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="92" selection-start="927" selection-end="927" vertical-scroll-proportion="0.5777778">
-          <folding />
         </state>
       </provider>
     </entry>
