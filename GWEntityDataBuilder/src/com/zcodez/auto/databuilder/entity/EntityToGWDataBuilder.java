@@ -46,7 +46,7 @@ public class EntityToGWDataBuilder {
     private static String $JSON_FILE = "";
     private static String $OUTPUT_DIR = "";
     private static String $CONFIG_FILE_DIR = "";
-    private static String $PACKAGE_NAME = "";
+    private static String $PACKAGE_NAME = "extensions.entity";
     public static  String $JIRA_REFERENCE = "";
     public static  String $JIRA_DESCRIPTION = "";
     public static String $AUTHOR = "author";
@@ -90,7 +90,7 @@ public class EntityToGWDataBuilder {
         $JSON_FILE = _entityFile;
         $OUTPUT_DIR = _entityFile.substring(0, _entityFile.lastIndexOf("/")+1);
         $CONFIG_FILE_DIR = $OUTPUT_DIR;
-        $PACKAGE_NAME = extractPackageName(_entityFile);
+        //$PACKAGE_NAME = extractPackageName(_entityFile);
         //Messages.showMessageDialog(p, "File: " +$JSON_FILE + "CONFIG::: " +$CONFIG_FILE_DIR+ "CONFIG_FILE::" +$CONFIG_FILE_NAME, "GW-Entity Plugin", Messages.getInformationIcon());
 
         boolean isConfigLoaded = loadConfigurationFile();

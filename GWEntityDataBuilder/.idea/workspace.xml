@@ -19,16 +19,17 @@
     <file path="$PROJECT_DIR$/../GRestPlugin/src/resources/templates/BuilderIntegerPropertyModel.gtf" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643242474068" ignored="false" />
     <file path="$PROJECT_DIR$/../GRestPlugin/src/resources/templates/BuilderBooleanPropertyModel.gtf" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643242492404" ignored="false" />
     <file path="/BuilderBooleanPropertyModel.gtf" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643242440680" ignored="false" />
-    <file path="$PROJECT_DIR$/../GRestPlugin/src/com/zcodez/rest/stubs/generator/process/JSON2GClazz.java" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643286341132" ignored="false" />
-    <file path="/JSON2GClazz.java" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643286199107" ignored="false" />
+    <file path="$PROJECT_DIR$/../GRestPlugin/src/com/zcodez/rest/stubs/generator/process/JSON2GClazz.java" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643288489925" ignored="false" />
+    <file path="/JSON2GClazz.java" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643288334588" ignored="false" />
     <file path="$PROJECT_DIR$/../GRestPlugin/src/resources/templates/BuilderStringPropertyModel.gtf" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643242484203" ignored="false" />
-    <file path="$PROJECT_DIR$/../GRestPlugin/src/resources/templates/BuilderObjectPropertyModel.gtf" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643241695235" ignored="false" />
+    <file path="$PROJECT_DIR$/../GRestPlugin/src/resources/templates/BuilderObjectPropertyModel.gtf" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643288318029" ignored="false" />
     <file path="$PROJECT_DIR$/../GRestPlugin/src/com/zcodez/rest/stubs/generator/vo/StructureDefinitionVO.java" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643242233415" ignored="false" />
     <file path="/StructureDefinitionVO.java" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643242231495" ignored="false" />
     <file path="$PROJECT_DIR$/../GRestPlugin/src/resources/templates/Declarations.gtf" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643284669666" ignored="false" />
     <file path="/Declarations.gtf" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643284669666" ignored="false" />
     <file path="$PROJECT_DIR$/../GRestPlugin/src/resources/templates/DeclarationsWOAnnotation.gtf" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643284691899" ignored="false" />
     <file path="/DeclarationsWOAnnotation.gtf" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643284691899" ignored="false" />
+    <file path="/BuilderObjectPropertyModel.gtf" changelist="04e56791-15f8-4314-a856-1e272a32c8c5" time="1643288318029" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +129,7 @@
       <file leaf-file-name="EntityToGWDataBuilder.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/zcodez/auto/databuilder/entity/EntityToGWDataBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="411" column="102" selection-start="16512" selection-end="16575" vertical-scroll-proportion="0.51994497">
+            <state line="451" column="56" selection-start="18557" selection-end="18557" vertical-scroll-proportion="0.5667125">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -770,7 +771,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zcodez/auto/databuilder/entity/EntityToGWDataBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="411" column="102" selection-start="16512" selection-end="16575" vertical-scroll-proportion="0.51994497">
+        <state line="451" column="56" selection-start="18557" selection-end="18557" vertical-scroll-proportion="0.5667125">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
