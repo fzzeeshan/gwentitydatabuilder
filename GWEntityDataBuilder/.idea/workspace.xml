@@ -44,7 +44,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -81,6 +80,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -93,7 +93,7 @@
       <file leaf-file-name="EntiyToGDataBuilderAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zcodez/auto/databuilder/action/EntiyToGDataBuilderAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="79" selection-start="1167" selection-end="1167" vertical-scroll-proportion="-9.68">
+            <state line="34" column="79" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -126,10 +126,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityToGWDataBuilder.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EntityToGWDataBuilder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zcodez/auto/databuilder/entity/EntityToGWDataBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="451" column="56" selection-start="18557" selection-end="18557" vertical-scroll-proportion="0.5667125">
+            <state line="458" column="35" selection-start="18679" selection-end="18679" vertical-scroll-proportion="-280.24">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,10 +137,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuilderClassModel.gtf" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BuilderClassModel.gtf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resources/templates/BuilderClassModel.gtf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="25" selection-end="42" vertical-scroll-proportion="0.0">
+            <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -176,7 +176,7 @@
       <file leaf-file-name="EntityBuilderConstants.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zcodez/auto/databuilder/util/EntityBuilderConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="84" selection-start="985" selection-end="985" vertical-scroll-proportion="-19.72">
+            <state line="29" column="84" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -196,11 +196,11 @@
         <option value="$PROJECT_DIR$/src/com/zcodez/auto/databuilder/vo/OutputDataVO.java" />
         <option value="$PROJECT_DIR$/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/src/com/zcodez/auto/databuilder/util/APIConstants.java" />
-        <option value="$PROJECT_DIR$/src/resources/templates/BuilderClassModel.gtf" />
         <option value="$PROJECT_DIR$/src/com/zcodez/auto/databuilder/action/EntiyToGDataBuilderAction.java" />
         <option value="$PROJECT_DIR$/src/resources/templates/WithModel.gtf" />
         <option value="$PROJECT_DIR$/src/com/zcodez/auto/databuilder/util/EntityBuilderConstants.java" />
         <option value="$PROJECT_DIR$/src/com/zcodez/auto/databuilder/entity/EntityToGWDataBuilder.java" />
+        <option value="$PROJECT_DIR$/src/resources/templates/BuilderClassModel.gtf" />
       </list>
     </option>
   </component>
@@ -236,8 +236,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -479,6 +479,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -504,19 +517,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -577,7 +577,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1727" y="-267" width="1734" height="1407" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -587,7 +587,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298639" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298639" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -741,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/templates/BuilderClassModel.gtf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="25" selection-end="42" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/templates/WithModel.gtf">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="70" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
@@ -757,24 +750,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zcodez/auto/databuilder/util/EntityBuilderConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="84" selection-start="985" selection-end="985" vertical-scroll-proportion="-19.72">
+        <state line="29" column="84" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zcodez/auto/databuilder/action/EntiyToGDataBuilderAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="79" selection-start="1167" selection-end="1167" vertical-scroll-proportion="-9.68">
+        <state line="34" column="79" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zcodez/auto/databuilder/entity/EntityToGWDataBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="451" column="56" selection-start="18557" selection-end="18557" vertical-scroll-proportion="0.5667125">
+        <state line="458" column="35" selection-start="18679" selection-end="18679" vertical-scroll-proportion="-280.24">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/templates/BuilderClassModel.gtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
